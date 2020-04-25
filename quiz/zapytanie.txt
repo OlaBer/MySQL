@@ -1,1 +1,1 @@
-SELECT * FROM pytania ORDER BY tresc ASC
+SELECT id, tresc FROM pytania WHERE id BETWEEN 10 AND 12 
