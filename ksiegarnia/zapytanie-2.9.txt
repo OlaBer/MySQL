@@ -1,0 +1,5 @@
+SELECT ksiazki.tytul, ksiazki.imieautora, ksiazki.nazwiskoautora FROM ksiazki, zamowienia WHERE zamowienia.idklienta=2 AND zamowienia.idksiazki=ksiazki.idksiazki
+
+lub 
+
+SELECT k.tytul, k.imieautora, k.nazwiskoautora FROM ksiazki AS k, zamowienia AS z WHERE z.idklienta=2 AND z.idksiazki=k.idksiazki
