@@ -1,1 +1,1 @@
-SELECT k.imie, k.nazwisko, z.idzamowienia, z.data FROM klienci AS k, zamowienia AS z WHERE k.idklienta=z.idklienta
+SELECT k.imie, k.nazwisko FROM klienci AS k, zamowienia AS z WHERE z.idksiazki=2 AND z.idklienta=k.idklienta

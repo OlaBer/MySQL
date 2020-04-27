@@ -1,0 +1,5 @@
+SELECT klienci.imie, klienci.nazwisko FROM klienci, zamowienia WHERE zamowienia.idksiazki=2 AND zamowienia.idklienta=klienci.idklienta
+
+lub
+
+SELECT k.imie, k.nazwisko FROM klienci AS k, zamowienia AS z WHERE z.idksiazki=2 AND z.idklienta=k.idklienta
