@@ -1,1 +1,3 @@
+Zad. 7 z użyciem aliasów:
+
 SELECT k.imie, k.nazwisko, z.idzamowienia, z.data FROM klienci AS k, zamowienia AS z WHERE k.idklienta=z.idklienta
