@@ -1,1 +1,1 @@
-SELECT * FROM auta WHERE rocznik=2010
+SELECT auta.marka, auta.model FROM auta WHERE wypozyczenia.idklienta=4 

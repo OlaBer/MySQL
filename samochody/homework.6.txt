@@ -1,0 +1,1 @@
+SELECT marka, model, ubezpieczenie FROM auta ORDER BY ubezpieczenie DESC LIMIT 1
