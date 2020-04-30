@@ -1,0 +1,1 @@
+SELECT auta.idauta, auta.marka, auta.model, wypozyczenia.datawyp FROM auta, wypozyczenia WHERE wypozyczenia.idauta=auta.idauta ORDER BY wypozyczenia.datawyp DESC LIMIT 1

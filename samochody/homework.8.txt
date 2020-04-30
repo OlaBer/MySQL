@@ -1,0 +1,1 @@
+SELECT klienci.imie, klienci.nazwisko, wypozyczenia.idauta FROM klienci, wypozyczenia WHERE klienci.idklienta=wypozyczenia.idklienta AND wypozyczenia.idauta=1 

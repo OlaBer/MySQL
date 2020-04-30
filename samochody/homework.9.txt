@@ -1,0 +1,1 @@
+SELECT auta.marka, auta.model FROM auta, wypozyczenia WHERE wypozyczenia.idklienta=4 AND wypozyczenia.idauta=auta.idauta
