@@ -1,0 +1,1 @@
+UPDATE zamowienia SET status="wyslano" WHERE idzamowienia BETWEEN 4 AND 5

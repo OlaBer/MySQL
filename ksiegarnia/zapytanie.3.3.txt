@@ -1,0 +1,1 @@
+UPDATE ksiazki SET cena=cena-10 ORDER BY cena DESC LIMIT 1
