@@ -1,0 +1,1 @@
+INSERT INTO klienci VALUES (NULL, "Marilyn", "Monroe", "Los Angeles"), (NULL, "John", "Wayne", "Los Angeles")

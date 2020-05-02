@@ -1,0 +1,1 @@
+INSERT INTO zamowienia (idzamowienia, data, status, idklienta, idksiazki) VALUES (NULL, "2016-0101", "oczekiwanie", 7, 3)

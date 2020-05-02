@@ -1,0 +1,1 @@
+INSERT INTO klienci VALUES (NULL, "Franciszek", "Janowski", "Chorzów")
