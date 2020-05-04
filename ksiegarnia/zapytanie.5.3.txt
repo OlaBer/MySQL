@@ -1,0 +1,1 @@
+DELETE FROM klienci ORDER BY idklienta DESC LIMIT 5
